@@ -106,7 +106,7 @@ func login(dataBase []Person) {
 
 				err := http.ListenAndServe(addr, nil)
 				if err != nil {
-					fmt.Printf("Błąd uruchamiania serwera: %s\n", err)
+					fmt.Printf("Server start error: %s\n", err)
 				} 
 
                 return
